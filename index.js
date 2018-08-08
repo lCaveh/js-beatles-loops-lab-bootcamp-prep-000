@@ -16,12 +16,12 @@ function johnLennonFacts(facts) {
   return array;
 }
 
-function iLoveTheBeatles(facts) {
+function iLoveTheBeatles(number) {
   var array =[];
-  var i=0;
-  while (i < (facts.length)) {
+  var i=1;
+  do{
     array.push(`${facts[i]}!!!`);
     i++;
-  }
+  } while (i < (number) && i < 16); 
   return array;
 }
